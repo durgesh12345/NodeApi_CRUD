@@ -1,0 +1,62 @@
+body{
+    background-color: rebeccapurple;
+}
+
+#container1{
+  background-color: rgb(206, 215, 215);
+  width: 300px;
+ height: auto;
+margin-top: 50px;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+
+}
+.container{
+  display: grid;
+  place-content: center;
+  background-color: coral;
+  
+box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+}
+.cre{
+  display: grid;
+  place-content: center;
+}
+#btn{
+  margin-left: 50px;
+  margin-top: 4px;
+  border: none;
+}
+#btn:hover{
+  background-color: rgb(137, 125, 121);
+  border: 0.5px solid #eee;
+ 
+}
+.line{
+  display: flex;
+  width: 240px;
+  list-style: none;
+  margin-left: 0px;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+text-align: center;
+color: white;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+#det{
+ margin-right: 0px;
+ margin-left: 40px;
+ margin-top: 10px;
+  border: none;
+ background-color: coral;
+ 
+box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+}
+#delete{
+  width: 35px;
+  height: 50px;
+}
+#tes{
+  margin-left: 5px;
+}
